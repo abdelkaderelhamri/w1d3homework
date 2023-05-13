@@ -1,0 +1,107 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+.font-size{
+    color: white;
+    font-size: 25px;
+}
+
+#nav-bar{
+    display: flex;
+    background-color: black;
+    text-align: center;
+}
+
+nav span{
+    color: white;
+    text-align: center;
+    margin: 70px;
+}
+
+.centered{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 110px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;}
+
+.imgtwo{    
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    align-self: auto;
+}
+
+button{
+    float: right;
+    margin-right: 500px;
+    margin-top: 70px;
+    background-color: rgb(225, 255, 0);
+    padding: 20px;
+    margin-bottom: 50px;
+    align-self: auto;
+}
+
+h3{
+    background-color: lightgray;
+    margin-left: 400px;
+    margin-right: 500px;
+    font-size: 20px;
+}
+
+main p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 65px;
+    padding: 15px;
+}
+
+.imgthree{
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    align-self: auto;
+    
+}
+
+.imgfour{
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    align-self: auto;
+    border-bottom: 1px solid black;
+}
+
+.imgfive{
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    align-self: auto;
+    border-bottom: 1px solid black;
+}
